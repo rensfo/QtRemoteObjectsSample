@@ -1,0 +1,6 @@
+class Sensor
+{
+    PROP(int id=0 READONLY);
+    PROP(float humidity=0.0 READONLY);
+    PROP(float temperature=0.0 READONLY);
+};
